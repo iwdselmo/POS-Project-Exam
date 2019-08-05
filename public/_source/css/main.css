@@ -1,0 +1,74 @@
+ul.product-lists-card{
+	padding-left: 0;
+}
+
+ul.product-lists-card li.products-card{
+	list-style: none;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: #f8efba;
+	position: relative;
+	margin:10px;
+}
+
+ul.product-lists-card li.products-card:hover{
+	background: #eab543;
+}
+
+ul.product-lists-card li.products-card .product-name{
+    bottom: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+}
+
+ul.product-lists-card li.products-card .product-price{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    top: 30px;
+}
+ul.cart-list{
+	padding-left: 0;
+}
+ul.cart-list li.cart-item{
+	list-style: none;
+	display: block
+}
+
+.receipt-card{
+	padding: 20px;
+	background-color: beige;
+}
+
+.receipt-card .heading{
+	padding: 10px 0;
+    border-bottom: 2px solid;
+}
+
+.receipt-card .item:nth-child(odd){
+	background: rosybrown;
+}
+
+.receipt-card .discount{
+	border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 20px 0;
+}
+
+.receipt-card .total{
+    border-bottom: 2px solid;
+    padding: 20px 0;
+}
+
+.receipt-card .vat{
+    border-bottom: 2px solid;
+    padding: 20px 0;
+}
+
+.receipt-card .change{
+    padding: 20px 0;
+}	
